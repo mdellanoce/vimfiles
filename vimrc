@@ -42,4 +42,7 @@ if has("autocmd")
 
   " More ruby file types
   au BufNewFile,BufRead Vagrantfile set ft=ruby
+
+  " More css file types
+  au BufNewFile,BufRead *.less set ft=css
 end
