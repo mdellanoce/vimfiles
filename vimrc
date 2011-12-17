@@ -35,6 +35,10 @@ nnoremap <leader><leader> <c-^>
 set backupdir=~/.vim/_backup
 set directory=~/.vim/_temp
 
+if has("clipboard")
+  set clipboard=unnamed
+end
+
 if has("autocmd")
   " Real tabs for Makefiles
   au FileType make set noexpandtab
