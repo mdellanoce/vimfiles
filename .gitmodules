@@ -10,3 +10,6 @@
 [submodule "bundle/soy"]
 	path = bundle/soy
 	url = git://github.com/duganchen/vim-soy.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
