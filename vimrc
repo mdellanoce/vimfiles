@@ -9,9 +9,9 @@ set nonumber
 set ruler
 set cursorline
 
-set softtabstop=2
-set shiftwidth=2
-set tabstop=2
+set softtabstop=4
+set shiftwidth=4
+set tabstop=4
 set expandtab
 
 set hlsearch
@@ -34,6 +34,7 @@ nnoremap <leader><leader> <c-^>
 
 set backupdir=~/.vim/_backup
 set directory=~/.vim/_temp
+set wildignore+=node_modules/**
 
 if has("clipboard")
   set clipboard=unnamed
